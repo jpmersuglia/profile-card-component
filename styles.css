@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eceef6;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    background-color: #e9edf7;
+    display: flex;
+    width: 550px;
+    height: 20em;
+    margin: 5em 2em;
+}
+
+.main-card{
+    display: row;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgb(204, 208, 220,1);
+    border-radius: 5px;
+    margin: 1em 0em 1em 1em;
+    padding: 2em;
+    text-align: center;
+    height: 18em;
+}
+.main-card img{
+    height: 75px;
+    border-radius: 2px;
+    margin-bottom: .5em;
+}
+
+.main-card h5{
+    font-weight: 100;
+    margin: 0;
+    color: #838383;
+}
+.main-card h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: #3b3b3b;
+    margin: 0;
+}
+.main-card p{
+    font-weight: 100;
+    font-size: 9px;
+    color: #3b3b3b;
+    background-color: #e4e9fa;
+    border-radius: 20px;
+    padding: 4px 0px 4px 0px;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+a{
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fefefe;
+    background-color: #4a90e2;
+    border-radius: 3px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.secondary-cards{
+    min-height: 18em;
+    width: 20em;
+    padding: 1em;
+}
+
+.my-funds{
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgb(204, 208, 220,1);
+    border-radius: 5px;
+    margin: 0em 0 .5em 0em;
+    padding: 1em 1em 1em 1em;
+    text-align: left;
+}
+.money-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-funds h5{
+    font-weight: 100;
+    color: #838383;
+    margin: 0.5em 0 1.5em 0.5em;
+}
+hr{
+    color: #838383;
+    margin: 0 .5em 0 .5em;
+}
+.my-funds h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: #3b3b3b;
+    margin: 1.5em 0 1.5em .5em;
+}
+.my-funds a{
+    margin: 1.5em 0 2em .5em;
+}
+
+.my-steps{
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgb(204, 208, 220,1);
+    border-radius: 5px;
+    margin: 1em 0 .5em 0;
+    padding: .5em;
+    text-align: left;
+}
+.my-steps h5{
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 1.5em;
+}
+.my-steps progress{
+    background-color: #ffffff;
+    color: #619ce0;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    overflow: hidden;
+    margin: 1em;
+}
+
